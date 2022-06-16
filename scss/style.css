@@ -1,0 +1,51 @@
+/* BUCLES */
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 26.66667px;
+}
+
+/* EACH */
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.cl-red {
+  color: red;
+}
+
+.cl-white {
+  color: white;
+}
+
+.cl-wheat {
+  color: wheat;
+}
+
+/* MAPS */
+.color-instagram {
+  background-color: red;
+}
+
+.color-facebook {
+  background-color: blue;
+}
+
+.color-mail {
+  background-color: orange;
+}
+/*# sourceMappingURL=style.css.map */

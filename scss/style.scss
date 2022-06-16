@@ -1,0 +1,41 @@
+
+/* BUCLES */
+
+
+@for $i from 1 through 3{
+	h#{$i}{
+        font-size: 80px / $i;
+	}
+}
+
+
+/* EACH */
+
+@each $backgroud in blue, yellow, black {
+	.bg-#{$backgroud}{
+	background-color:#{$backgroud};
+	}
+}
+
+@each $color in red, white, wheat {
+	.cl-#{$color}{
+	color:#{$color};
+	}
+}
+
+
+/* MAPS */
+
+$redes: ( 
+        instagram: red,
+        facebook:  blue,
+        mail: orange
+); 
+
+@each $red, $color in $redes {
+   .color-#{$red} {
+       background-color: $color;
+   }
+}
+
+
